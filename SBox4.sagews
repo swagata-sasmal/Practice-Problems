@@ -1,4 +1,4 @@
-︠d78b1123-85b6-46c4-9136-646f36c047c9r︠
+
 from sage.crypto.sbox import SBox
 S=SBox([14,4,13,1,2,15,11,8,3,10,6,12,5,9,0,7])
 P=Permutation([1,5,8,7,3,6,2,4])
@@ -45,8 +45,7 @@ print("After key mixing:",temp4)
 
 
 
-
-︡0a772c02-c4b4-48d3-9fe4-c27e63dd8db7︡{"stdout":"10111010\n"}︡{"stdout":"Before key mixing : 10101110\n"}
+︡
 
 
 
