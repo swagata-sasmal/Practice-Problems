@@ -1,0 +1,346 @@
+Notebook[{Cell[
+BoxData[""],"Input",ExpressionUUID -> "96d6e376-1aaa-46d4-9ff7-0c1083df2dea"],Cell[
+CellGroupData[
+{Cell[
+TextData[{StyleBox[RowBox[{StyleBox[StyleBox[StyleBox["(*",FontColor -> RGBColor[
+0.2549019607843137`,0.12156862745098039`,0.12156862745098039`]],FontSize -> 18],FontWeight -> Bold],StyleBox[
+StyleBox[StyleBox[" ",FontColor -> RGBColor[0.2549019607843137`,0.12156862745098039`,
+0.12156862745098039`]],FontSize -> 18],FontWeight -> Bold]}]],StyleBox[StyleBox[StyleBox[
+"A",FontColor -> RGBColor[0.2549019607843137`,0.12156862745098039`,0.12156862745098039`]],
+FontSize -> 18],FontWeight -> Bold],StyleBox[StyleBox[StyleBox[" ",FontColor -> RGBColor[
+0.2549019607843137`,0.12156862745098039`,0.12156862745098039`]],FontSize -> 18],FontWeight -> Bold],StyleBox[
+StyleBox[StyleBox["very",FontColor -> RGBColor[0.2549019607843137`,0.12156862745098039`,
+0.12156862745098039`]],FontSize -> 18],FontWeight -> Bold],StyleBox[StyleBox[StyleBox[
+" ",FontColor -> RGBColor[0.2549019607843137`,0.12156862745098039`,0.12156862745098039`]],
+FontSize -> 18],FontWeight -> Bold],StyleBox[StyleBox[StyleBox["simple",FontColor -> RGBColor[
+0.2549019607843137`,0.12156862745098039`,0.12156862745098039`]],FontSize -> 18],FontWeight -> Bold],StyleBox[
+StyleBox[StyleBox[" ",FontColor -> RGBColor[0.2549019607843137`,0.12156862745098039`,
+0.12156862745098039`]],FontSize -> 18],FontWeight -> Bold],StyleBox[StyleBox[StyleBox[
+"implementation",FontColor -> RGBColor[0.2549019607843137`,0.12156862745098039`,0.12156862745098039`]],
+FontSize -> 18],FontWeight -> Bold],StyleBox[StyleBox[StyleBox[" ",FontColor -> RGBColor[
+0.2549019607843137`,0.12156862745098039`,0.12156862745098039`]],FontSize -> 18],FontWeight -> Bold],StyleBox[
+StyleBox[StyleBox["of",FontColor -> RGBColor[0.2549019607843137`,0.12156862745098039`,
+0.12156862745098039`]],FontSize -> 18],FontWeight -> Bold],StyleBox[StyleBox[StyleBox[
+" ",FontColor -> RGBColor[0.2549019607843137`,0.12156862745098039`,0.12156862745098039`]],
+FontSize -> 18],FontWeight -> Bold],StyleBox[StyleBox[StyleBox["the",FontColor -> RGBColor[
+0.2549019607843137`,0.12156862745098039`,0.12156862745098039`]],FontSize -> 18],FontWeight -> Bold],StyleBox[
+StyleBox[StyleBox[" ",FontColor -> RGBColor[0.2549019607843137`,0.12156862745098039`,
+0.12156862745098039`]],FontSize -> 18],FontWeight -> Bold],StyleBox[StyleBox[StyleBox[
+"Subset",FontColor -> RGBColor[0.2549019607843137`,0.12156862745098039`,0.12156862745098039`]],
+FontSize -> 18],FontWeight -> Bold],StyleBox[StyleBox[StyleBox[" ",FontColor -> RGBColor[
+0.2549019607843137`,0.12156862745098039`,0.12156862745098039`]],FontSize -> 18],FontWeight -> Bold],StyleBox[
+StyleBox[StyleBox["Perfect",FontColor -> RGBColor[0.2549019607843137`,0.12156862745098039`,
+0.12156862745098039`]],FontSize -> 18],FontWeight -> Bold],StyleBox[StyleBox[StyleBox[
+" ",FontColor -> RGBColor[0.2549019607843137`,0.12156862745098039`,0.12156862745098039`]],
+FontSize -> 18],FontWeight -> Bold],StyleBox[StyleBox[StyleBox["Code",FontColor -> RGBColor[
+0.2549019607843137`,0.12156862745098039`,0.12156862745098039`]],FontSize -> 18],FontWeight -> Bold],StyleBox[
+StyleBox[StyleBox[" ",FontColor -> RGBColor[0.2549019607843137`,0.12156862745098039`,
+0.12156862745098039`]],FontSize -> 18],FontWeight -> Bold],StyleBox[StyleBox[StyleBox[
+"based",FontColor -> RGBColor[0.2549019607843137`,0.12156862745098039`,0.12156862745098039`]],
+FontSize -> 18],FontWeight -> Bold],StyleBox[StyleBox[StyleBox[" ",FontColor -> RGBColor[
+0.2549019607843137`,0.12156862745098039`,0.12156862745098039`]],FontSize -> 18],FontWeight -> Bold],StyleBox[
+StyleBox[StyleBox["Polly",FontColor -> RGBColor[0.2549019607843137`,0.12156862745098039`,
+0.12156862745098039`]],FontSize -> 18],FontWeight -> Bold],StyleBox[StyleBox[StyleBox[
+" ",FontColor -> RGBColor[0.2549019607843137`,0.12156862745098039`,0.12156862745098039`]],
+FontSize -> 18],FontWeight -> Bold],StyleBox[StyleBox[StyleBox["Cracker",FontColor -> RGBColor[
+0.2549019607843137`,0.12156862745098039`,0.12156862745098039`]],FontSize -> 18],FontWeight -> Bold],StyleBox[
+StyleBox[StyleBox[" ",FontColor -> RGBColor[0.2549019607843137`,0.12156862745098039`,
+0.12156862745098039`]],FontSize -> 18],FontWeight -> Bold],StyleBox[StyleBox[StyleBox[
+"Cryptosystem",FontColor -> RGBColor[0.2549019607843137`,0.12156862745098039`,0.12156862745098039`]],
+FontSize -> 18],FontWeight -> Bold],StyleBox[RowBox[{StyleBox[StyleBox[StyleBox[" ",
+FontColor -> RGBColor[0.2549019607843137`,0.12156862745098039`,0.12156862745098039`]],
+FontSize -> 18],FontWeight -> Bold],StyleBox[StyleBox[StyleBox["*)",FontColor -> RGBColor[
+0.2549019607843137`,0.12156862745098039`,0.12156862745098039`]],FontSize -> 18],FontWeight -> Bold]}]]}],
+"Subtitle",ExpressionUUID -> "3cc5446c-0ef0-4172-aef7-d650aeadec14"],Cell[
+BoxData[
+StyleBox[RowBox[{RowBox[{"(*"," ",RowBox[{"A"," ","set"," ","of"," ","variables"}],"*)"}]," "}]]],
+"Input",ExpressionUUID -> "c6f8b3d4-665d-431f-af35-b857aec29471"],Cell[
+CellGroupData[
+{Cell[
+BoxData[{RowBox[{RowBox[{"T"," ","="," ",RowBox[{"{",RowBox[{"t1",",","t2",",","t3",",","t4",",","t5"}],"}"}]}],";"}],"\n",RowBox[
+{RowBox[{"S"," ","="," ",RowBox[{"Subsets","[","T","]"}]}],"\n"}]}],"Input",CellLabel -> "In[2]:= ",
+ExpressionUUID -> "21d0178c-75a0-485d-a6a6-5240669573bf"],Cell[
+BoxData[RowBox[{"{",RowBox[
+{RowBox[{"{","}"}],",",RowBox[{"{","t1","}"}],",",RowBox[{"{","t2","}"}],",",RowBox[
+{"{","t3","}"}],",",RowBox[{"{","t4","}"}],",",RowBox[{"{","t5","}"}],",",RowBox[
+{"{",RowBox[{"t1",",","t2"}],"}"}],",",RowBox[{"{",RowBox[{"t1",",","t3"}],"}"}],",",RowBox[
+{"{",RowBox[{"t1",",","t4"}],"}"}],",",RowBox[{"{",RowBox[{"t1",",","t5"}],"}"}],",",RowBox[
+{"{",RowBox[{"t2",",","t3"}],"}"}],",",RowBox[{"{",RowBox[{"t2",",","t4"}],"}"}],",",RowBox[
+{"{",RowBox[{"t2",",","t5"}],"}"}],",",RowBox[{"{",RowBox[{"t3",",","t4"}],"}"}],",",RowBox[
+{"{",RowBox[{"t3",",","t5"}],"}"}],",",RowBox[{"{",RowBox[{"t4",",","t5"}],"}"}],",",RowBox[
+{"{",RowBox[{"t1",",","t2",",","t3"}],"}"}],",",RowBox[{"{",RowBox[{"t1",",","t2",",","t4"}],"}"}],",",RowBox[
+{"{",RowBox[{"t1",",","t2",",","t5"}],"}"}],",",RowBox[{"{",RowBox[{"t1",",","t3",",","t4"}],"}"}],",",RowBox[
+{"{",RowBox[{"t1",",","t3",",","t5"}],"}"}],",",RowBox[{"{",RowBox[{"t1",",","t4",",","t5"}],"}"}],",",RowBox[
+{"{",RowBox[{"t2",",","t3",",","t4"}],"}"}],",",RowBox[{"{",RowBox[{"t2",",","t3",",","t5"}],"}"}],",",RowBox[
+{"{",RowBox[{"t2",",","t4",",","t5"}],"}"}],",",RowBox[{"{",RowBox[{"t3",",","t4",",","t5"}],"}"}],",",RowBox[
+{"{",RowBox[{"t1",",","t2",",","t3",",","t4"}],"}"}],",",RowBox[{"{",RowBox[{"t1",",","t2",",","t3",",","t5"}],"}"}],",",RowBox[
+{"{",RowBox[{"t1",",","t2",",","t4",",","t5"}],"}"}],",",RowBox[{"{",RowBox[{"t1",",","t3",",","t4",",","t5"}],"}"}],",",RowBox[
+{"{",RowBox[{"t2",",","t3",",","t4",",","t5"}],"}"}],",",RowBox[{"{",RowBox[{"t1",",","t2",",","t3",",","t4",",","t5"}],"}"}]}],"}"}],
+StandardForm],"Output",CellLabel -> "Out[3]= ",ExpressionUUID -> "a577f946-0b75-4a9f-94f6-65300a5d7d67"]},
+Open],ExpressionUUID -> "7ebf6d36-7d40-4338-9edf-cab14fdf3d46"],Cell[
+BoxData[RowBox[
+{RowBox[{"(*"," ",RowBox[{"Public"," ","Key"," ",RowBox[{"Generation"," ",":"," ","\n","   ",RowBox[
+{"1."," ","Choose"," ","some"," ","mutually"," ","exhaustive"," ","sets"}]}]}]," ","*)"}],"\n"}]],
+"Input",ExpressionUUID -> "d3c21608-9873-436d-bcf0-120b339aa540"],Cell[
+BoxData[RowBox[
+{RowBox[{"T1","="," ",RowBox[{"{",RowBox[{"t1",","," ","t5"}],"}"}]}],";"}]],"Input",
+CellLabel -> "In[4]:= ",ExpressionUUID -> "44ed2d4f-8ba2-48e6-a4e1-4cb923201a18"],Cell[
+BoxData[
+RowBox[{RowBox[{"T2","=",RowBox[{"{"," ",RowBox[{"t1",","," ","t2",","," ","t4"}],"}"}]}],";"}]],
+"Input",CellLabel -> "In[5]:= ",ExpressionUUID -> "f70d5ab6-70fc-4182-84b1-7a07e787a0ec"],Cell[
+BoxData[
+RowBox[{RowBox[{"T3","="," ",RowBox[{"{",RowBox[{"t2",","," ","t3",","," ","t5"}],"}"}]}],";"}]],
+"Input",CellLabel -> "In[6]:= ",ExpressionUUID -> "070b7468-f1d6-4c55-a8ca-72f49b6e2dec"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{RowBox[{"Union","[",RowBox[{"T1",",","T2",",","T3"}],"]"}]," ","=="," ","T"}]],
+"Input",CellLabel -> "In[7]:= ",ExpressionUUID -> "4ca9de3b-c0da-44b4-9c35-28e16df8002b"],Cell[
+BoxData[
+"True",StandardForm],"Output",CellLabel -> "Out[7]= ",ExpressionUUID -> "45e73006-b950-469c-8898-e6c46fcdb18a"]},
+Open],ExpressionUUID -> "2fe0ba0b-75d2-4f67-9d3b-42dcbed6d4b4"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"\n",StyleBox[RowBox[{StyleBox[StyleBox[StyleBox["(*",FontSize -> 16],
+FontColor -> RGBColor[0.29411764705882354`,0.1450980392156863`,0.1607843137254902`]],
+FontWeight -> Bold],StyleBox[StyleBox[StyleBox[" ",FontSize -> 16],FontColor -> RGBColor[
+0.29411764705882354`,0.1450980392156863`,0.1607843137254902`]],FontWeight -> Bold]}]],StyleBox[
+StyleBox[StyleBox["Key",FontSize -> 16],FontColor -> RGBColor[0.29411764705882354`,
+0.1450980392156863`,0.1607843137254902`]],FontWeight -> Bold],StyleBox[StyleBox[StyleBox[
+" ",FontSize -> 16],FontColor -> RGBColor[0.29411764705882354`,0.1450980392156863`,
+0.1607843137254902`]],FontWeight -> Bold],StyleBox[StyleBox[StyleBox["Generation",
+FontSize -> 16],FontColor -> RGBColor[0.29411764705882354`,0.1450980392156863`,0.1607843137254902`]],
+FontWeight -> Bold],StyleBox[RowBox[{StyleBox[StyleBox[StyleBox[" ",FontSize -> 16],
+FontColor -> RGBColor[0.29411764705882354`,0.1450980392156863`,0.1607843137254902`]],
+FontWeight -> Bold],StyleBox[StyleBox[StyleBox["*)",FontSize -> 16],FontColor -> RGBColor[
+0.29411764705882354`,0.1450980392156863`,0.1607843137254902`]],FontWeight -> Bold]}]],"\n"}],
+"Subsubsection",ExpressionUUID -> "51dbc6d1-30fd-45fe-b4b4-28a8b3c44fda"],Cell[
+BoxData[
+RowBox[{"(*"," ",RowBox[{RowBox[{"Find"," ","a"," ","subset"," ","T0"," ","of"," ","T"," ","that"," ","intersects"," ","each"," ","of"," ","T1"}],",","T2",",",RowBox[
+{"T3"," ","at"," ","exactly"," ","one"," ","element"}]}]," ","*)"}]],"Input",ExpressionUUID -> "9da2d27d-d48d-4671-ae17-0df3039e6ee8"],Cell[
+BoxData[
+{RowBox[{RowBox[{"T0"," ","="," ",RowBox[{"{",RowBox[{"t1",","," ","t4"," ",","," ","t3"}],"}"}]}],";"}],"\n",RowBox[
+{RowBox[{"(*"," ",RowBox[{RowBox[{RowBox[{"There"," ","is"," ","a"," ","correspondence"," ","between"," ","each"," ","of"," ","the"," ","subsets"," ","of"," ","T"," ","to"," ","points"," ","in"," ",RowBox[
+{"(",RowBox[{"t1",",","t2",",","t3",",","t4",",","t5"}],")"}]," ","coordinate"," ","system"," ","defined"," ","as"," ",RowBox[
+{"follows"," ",":","\n","            ",RowBox[{"A"," ","|",RowBox[{RowBox[{"--",RowBox[
+{"--",RowBox[{"--","--"}]}]}],">"," ",RowBox[{RowBox[{"(",RowBox[{"y1",",","y2",",","y3",",","y4",",","y5"}],")"}]," ","where"," ","yi"}]}]}]}]}]," ","="," ",RowBox[
+{"1"," ","if"," ","ti"," ","belongs"," ","to"," ","A"}]}],","," ",RowBox[{"otherwise"," ","0"}]}]," ","*)"}],"\n",RowBox[
+{"(*"," ",RowBox[{"Define"," ","the"," ","point"," ","corresponding"," ","to"," ","the"," ","private"," ","key"," ","T0"}]," ","*)"}],"\n",RowBox[
+{RowBox[{"p"," ","="," ",RowBox[{"{",RowBox[{"1",",","0",",","1",",","1",",","0"}],"}"}]}],";"}]}]}],
+"Input",CellLabel -> "In[12]:= ",ExpressionUUID -> "e29176f5-c88f-4692-981d-d5e90488ba00"],Cell[
+BoxData[
+""],"Input",ExpressionUUID -> "de984e8b-16ac-492a-8fa9-f54e9113e872"],Cell[
+BoxData[
+RowBox[{"(*"," ",RowBox[{"Define"," ","two"," ","sets"," ","of"," ","polynomials"," ","that"," ","vanish"," ","at"," ","p"}]," ","*)"}]],
+"Input",ExpressionUUID -> "8c26ab48-b659-4c75-a992-879b846b3a88"],Cell[
+CellGroupData[
+{Cell[
+BoxData[{RowBox[{"B1"," ","="," ",RowBox[{"List","[",RowBox[{RowBox[{"1","-"," ",RowBox[
+{"Sum","[",RowBox[{RowBox[{"T1","[",RowBox[{"[","i","]"}],"]"}],",",RowBox[{"{",RowBox[
+{"i",",","1",",",RowBox[{"Length","[","T1","]"}],",","1"}],"}"}]}],"]"}]}],","," ",RowBox[
+{"1","-",RowBox[{"Sum","[",RowBox[{RowBox[{"T2","[",RowBox[{"[","i","]"}],"]"}],",",RowBox[
+{"{",RowBox[{"i",",","1",",",RowBox[{"Length","[","T2","]"}],",","1"}],"}"}]}],"]"}]}]," ",","," ",RowBox[
+{"1","-",RowBox[{"Sum","[",RowBox[{RowBox[{"T3","[",RowBox[{"[","i","]"}],"]"}],",",RowBox[
+{"{",RowBox[{"i",",","1",",",RowBox[{"Length","[","T3","]"}],",","1"}],"}"}]}],"]"}]}]}],"]"}]}],"\n",RowBox[
+{RowBox[{"B2"," ","="," ",RowBox[{"List","["," ",RowBox[{RowBox[{"Sum","[",RowBox[
+{RowBox[{RowBox[{"T1","[",RowBox[{"[","i","]"}],"]"}]," ","*"," ",RowBox[{"T1","[",RowBox[
+{"[","j","]"}],"]"}]," ",RowBox[{"Boole","[",RowBox[{"i","<"," ","j"}],"]"}]}],","," ",RowBox[
+{"{",RowBox[{"i",",","1",",",RowBox[{"Length","[","T1","]"}],",","1"}],"}"}],",",RowBox[
+{"{",RowBox[{"j",",","1",",",RowBox[{"Length","[","T1","]"}],",","1"}],"}"}]}],"]"}],",",RowBox[
+{"Sum","[",RowBox[{RowBox[{RowBox[{"T2","[",RowBox[{"[","i","]"}],"]"}]," ","*"," ",RowBox[
+{"T2","[",RowBox[{"[","j","]"}],"]"}]," ",RowBox[{"Boole","[",RowBox[{"i","<"," ","j"}],"]"}]}],","," ",RowBox[
+{"{",RowBox[{"i",",","1",",",RowBox[{"Length","[","T2","]"}],",","1"}],"}"}],",",RowBox[
+{"{",RowBox[{"j",",","1",",",RowBox[{"Length","[","T2","]"}],",","1"}],"}"}]}],"]"}],","," ",RowBox[
+{"Sum","[",RowBox[{RowBox[{RowBox[{"T3","[",RowBox[{"[","i","]"}],"]"}]," ","*"," ",RowBox[
+{"T3","[",RowBox[{"[","j","]"}],"]"}]," ",RowBox[{"Boole","[",RowBox[{"i","<"," ","j"}],"]"}]}],","," ",RowBox[
+{"{",RowBox[{"i",",","1",",",RowBox[{"Length","[","T3","]"}],",","1"}],"}"}],",",RowBox[
+{"{",RowBox[{"j",",","1",",",RowBox[{"Length","[","T3","]"}],",","1"}],"}"}]}],"]"}]}],"]"}]}],"\n"}]}],
+"Input",CellLabel -> "In[18]:= ",ExpressionUUID -> "4c80bbf2-9111-43d3-a970-6857c2ce0fe6"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{RowBox[{"1","-","t1","-","t5"}],",",RowBox[{"1","-","t1","-","t2","-","t4"}],",",RowBox[
+{"1","-","t2","-","t3","-","t5"}]}],"}"}],StandardForm],"Output",CellLabel -> "Out[18]= ",
+ExpressionUUID -> "76d13cf0-e1ba-492a-aa11-e5ee234b1a7f"],Cell[
+BoxData[RowBox[{"{",RowBox[
+{RowBox[{"t1"," ","t5"}],",",RowBox[{RowBox[{"t1"," ","t2"}],"+",RowBox[{"t1"," ","t4"}],"+",RowBox[
+{"t2"," ","t4"}]}],",",RowBox[{RowBox[{"t2"," ","t3"}],"+",RowBox[{"t2"," ","t5"}],"+",RowBox[
+{"t3"," ","t5"}]}]}],"}"}],StandardForm],"Output",CellLabel -> "Out[19]= ",ExpressionUUID -> "90bd5d29-dd9c-41fe-bdb7-93d5c6bccb7b"]},
+Open],ExpressionUUID -> "b4d9ff23-112e-4cca-9ea9-0b80129a9504"],Cell[
+BoxData[RowBox[
+{"(*"," ",RowBox[{"Let"," ","our"," ","message"," ","space"," ","be"," ","F2"," ","and"," ","let"," ","B"," ","be"," ","the"," ","ideal"," ","of"," ",RowBox[
+{"F2","[","T","]"}]," ","generated"," ","by"," ","B1"," ","and"," ","B2"}]," ","*)"}]],
+"Input",ExpressionUUID -> "cdd50a10-5d9d-492c-83ce-7c7b733b2809"],Cell[
+BoxData[RowBox[
+{RowBox[{"(*"," ",RowBox[{RowBox[{"Private"," ",RowBox[{"Key"," ",":"," ","T0"}]}],","," ",RowBox[
+{"p","\n","   ","Public"," ",RowBox[{"Parameters"," ",":","T"}]}],",","B"}]," ","*)"}],"\n","\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]"}]],
+"Input",ExpressionUUID -> "9de45dca-e626-435d-99d3-22a2b29e8d04"]},Open],ExpressionUUID -> "e3fc986e-14f0-45d4-ba3e-a8fe9c286e09"],Cell[
+CellGroupData[
+{Cell[
+TextData[{StyleBox[RowBox[{StyleBox[StyleBox[StyleBox["(*",FontWeight -> Plain],
+FontColor -> RGBColor[0.3411764705882353`,0.1803921568627451`,0.1803921568627451`]],
+FontSize -> 16],StyleBox[StyleBox[StyleBox[" ",FontWeight -> Plain],FontColor -> RGBColor[
+0.3411764705882353`,0.1803921568627451`,0.1803921568627451`]],FontSize -> 16]}]],StyleBox[
+StyleBox[StyleBox[StyleBox["Encryption",FontWeight -> Bold],FontWeight -> Plain],
+FontColor -> RGBColor[0.3411764705882353`,0.1803921568627451`,0.1803921568627451`]],
+FontSize -> 16],StyleBox[StyleBox[StyleBox[StyleBox[" ",FontWeight -> Bold],FontWeight -> Plain],
+FontColor -> RGBColor[0.3411764705882353`,0.1803921568627451`,0.1803921568627451`]],
+FontSize -> 16],"\n",StyleBox[RowBox[{StyleBox[StyleBox[" ",FontColor -> RGBColor[
+0.3411764705882353`,0.1803921568627451`,0.1803921568627451`]],FontSize -> 16],StyleBox[
+StyleBox[" ",FontColor -> RGBColor[0.3411764705882353`,0.1803921568627451`,0.1803921568627451`]],
+FontSize -> 16]}]],StyleBox[StyleBox["Choose",FontColor -> RGBColor[0.3411764705882353`,
+0.1803921568627451`,0.1803921568627451`]],FontSize -> 16],StyleBox[StyleBox[" ",FontColor -> RGBColor[
+0.3411764705882353`,0.1803921568627451`,0.1803921568627451`]],FontSize -> 16],StyleBox[
+StyleBox["an",FontColor -> RGBColor[0.3411764705882353`,0.1803921568627451`,0.1803921568627451`]],
+FontSize -> 16],StyleBox[StyleBox[" ",FontColor -> RGBColor[0.3411764705882353`,0.1803921568627451`,
+0.1803921568627451`]],FontSize -> 16],StyleBox[StyleBox["element",FontColor -> RGBColor[
+0.3411764705882353`,0.1803921568627451`,0.1803921568627451`]],FontSize -> 16],StyleBox[
+StyleBox[" ",FontColor -> RGBColor[0.3411764705882353`,0.1803921568627451`,0.1803921568627451`]],
+FontSize -> 16],StyleBox[StyleBox["of",FontColor -> RGBColor[0.3411764705882353`,
+0.1803921568627451`,0.1803921568627451`]],FontSize -> 16],StyleBox[StyleBox[" ",FontColor -> RGBColor[
+0.3411764705882353`,0.1803921568627451`,0.1803921568627451`]],FontSize -> 16],StyleBox[
+StyleBox["B",FontColor -> RGBColor[0.3411764705882353`,0.1803921568627451`,0.1803921568627451`]],
+FontSize -> 16],StyleBox[StyleBox[" ",FontColor -> RGBColor[0.3411764705882353`,0.1803921568627451`,
+0.1803921568627451`]],FontSize -> 16],StyleBox[StyleBox["and",FontColor -> RGBColor[
+0.3411764705882353`,0.1803921568627451`,0.1803921568627451`]],FontSize -> 16],StyleBox[
+StyleBox[" ",FontColor -> RGBColor[0.3411764705882353`,0.1803921568627451`,0.1803921568627451`]],
+FontSize -> 16],StyleBox[StyleBox["add",FontColor -> RGBColor[0.3411764705882353`,
+0.1803921568627451`,0.1803921568627451`]],FontSize -> 16],StyleBox[StyleBox[" ",FontColor -> RGBColor[
+0.3411764705882353`,0.1803921568627451`,0.1803921568627451`]],FontSize -> 16],StyleBox[
+StyleBox["the",FontColor -> RGBColor[0.3411764705882353`,0.1803921568627451`,0.1803921568627451`]],
+FontSize -> 16],StyleBox[StyleBox[" ",FontColor -> RGBColor[0.3411764705882353`,0.1803921568627451`,
+0.1803921568627451`]],FontSize -> 16],StyleBox[StyleBox["plaintext",FontColor -> RGBColor[
+0.3411764705882353`,0.1803921568627451`,0.1803921568627451`]],FontSize -> 16],StyleBox[
+StyleBox[" ",FontColor -> RGBColor[0.3411764705882353`,0.1803921568627451`,0.1803921568627451`]],
+FontSize -> 16],StyleBox[StyleBox["message",FontColor -> RGBColor[0.3411764705882353`,
+0.1803921568627451`,0.1803921568627451`]],FontSize -> 16],StyleBox[StyleBox[" ",FontColor -> RGBColor[
+0.3411764705882353`,0.1803921568627451`,0.1803921568627451`]],FontSize -> 16],StyleBox[
+StyleBox["m",FontColor -> RGBColor[0.3411764705882353`,0.1803921568627451`,0.1803921568627451`]],
+FontSize -> 16],StyleBox[StyleBox[" ",FontColor -> RGBColor[0.3411764705882353`,0.1803921568627451`,
+0.1803921568627451`]],FontSize -> 16],StyleBox[StyleBox["to",FontColor -> RGBColor[
+0.3411764705882353`,0.1803921568627451`,0.1803921568627451`]],FontSize -> 16],StyleBox[
+StyleBox[" ",FontColor -> RGBColor[0.3411764705882353`,0.1803921568627451`,0.1803921568627451`]],
+FontSize -> 16],StyleBox[StyleBox["it",FontColor -> RGBColor[0.3411764705882353`,
+0.1803921568627451`,0.1803921568627451`]],FontSize -> 16],StyleBox[RowBox[{StyleBox[
+StyleBox[".",FontColor -> RGBColor[0.3411764705882353`,0.1803921568627451`,0.1803921568627451`]],
+FontSize -> 16],StyleBox[StyleBox[" ",FontColor -> RGBColor[0.3411764705882353`,0.1803921568627451`,
+0.1803921568627451`]],FontSize -> 16]}]],StyleBox[StyleBox["Suppose",FontColor -> RGBColor[
+0.3411764705882353`,0.1803921568627451`,0.1803921568627451`]],FontSize -> 16],StyleBox[
+StyleBox[" ",FontColor -> RGBColor[0.3411764705882353`,0.1803921568627451`,0.1803921568627451`]],
+FontSize -> 16],StyleBox[StyleBox["we",FontColor -> RGBColor[0.3411764705882353`,
+0.1803921568627451`,0.1803921568627451`]],FontSize -> 16],StyleBox[StyleBox[" ",FontColor -> RGBColor[
+0.3411764705882353`,0.1803921568627451`,0.1803921568627451`]],FontSize -> 16],StyleBox[
+StyleBox["want",FontColor -> RGBColor[0.3411764705882353`,0.1803921568627451`,0.1803921568627451`]],
+FontSize -> 16],StyleBox[StyleBox[" ",FontColor -> RGBColor[0.3411764705882353`,0.1803921568627451`,
+0.1803921568627451`]],FontSize -> 16],StyleBox[StyleBox["to",FontColor -> RGBColor[
+0.3411764705882353`,0.1803921568627451`,0.1803921568627451`]],FontSize -> 16],StyleBox[
+StyleBox[" ",FontColor -> RGBColor[0.3411764705882353`,0.1803921568627451`,0.1803921568627451`]],
+FontSize -> 16],StyleBox[StyleBox["encrypt",FontColor -> RGBColor[0.3411764705882353`,
+0.1803921568627451`,0.1803921568627451`]],FontSize -> 16],StyleBox[StyleBox[" ",FontColor -> RGBColor[
+0.3411764705882353`,0.1803921568627451`,0.1803921568627451`]],FontSize -> 16],StyleBox[
+StyleBox["m",FontColor -> RGBColor[0.3411764705882353`,0.1803921568627451`,0.1803921568627451`]],
+FontSize -> 16],StyleBox[StyleBox["=",FontColor -> RGBColor[0.3411764705882353`,0.1803921568627451`,
+0.1803921568627451`]],FontSize -> 16],StyleBox[StyleBox["1",FontColor -> RGBColor[
+0.3411764705882353`,0.1803921568627451`,0.1803921568627451`]],FontSize -> 16],StyleBox[
+RowBox[{StyleBox[StyleBox[".",FontColor -> RGBColor[0.3411764705882353`,0.1803921568627451`,
+0.1803921568627451`]],FontSize -> 16],StyleBox[StyleBox[" ",FontColor -> RGBColor[
+0.3411764705882353`,0.1803921568627451`,0.1803921568627451`]],FontSize -> 16],StyleBox[
+StyleBox["*)",FontColor -> RGBColor[0.3411764705882353`,0.1803921568627451`,0.1803921568627451`]],
+FontSize -> 16]}]]}],"Subsection",ExpressionUUID -> "045fb2f9-ff12-4e25-91eb-f131161366e8"],Cell[
+BoxData[
+""],"Input",ExpressionUUID -> "17cfd25c-8a57-4ca0-9c30-997595521983"],Cell[
+CellGroupData[
+{Cell[
+BoxData[{RowBox[{RowBox[{"message"," ","="," ","1"}],";"}],"\n",RowBox[{"e"," ","="," ",RowBox[
+{RowBox[{RowBox[{"RandomSample","[",RowBox[{"B1",",","1"}],"]"}],"[",RowBox[{"[","1","]"}],"]"}]," ","+"," ",RowBox[
+{"t3"," ","*"," ",RowBox[{RowBox[{"RandomSample","[",RowBox[{"B2",",","1"}],"]"}],"[",RowBox[
+{"[","1","]"}],"]"}]}]}]}]}],"Input",CellLabel -> "In[28]:= ",ExpressionUUID -> "30bf292f-07d9-4dc7-9d91-d9fdf2521e5f"],Cell[
+BoxData[
+RowBox[{"1","-","t1","-","t2","-","t4","+",RowBox[{"t3"," ",RowBox[{"(",RowBox[{RowBox[
+{"t1"," ","t2"}],"+",RowBox[{"t1"," ","t4"}],"+",RowBox[{"t2"," ","t4"}]}],")"}]}]}],
+StandardForm],"Output",CellLabel -> "Out[29]= ",ExpressionUUID -> "611eecd4-1de3-4e66-84a3-86fc6c2b2d1c"]},
+Open],ExpressionUUID -> "58374920-5fda-49d1-a4cb-191944177032"]},Open],ExpressionUUID -> "fb3eac5c-6a10-4c6f-8139-2529a71c679d"]},
+Open],ExpressionUUID -> "97b39778-2556-479c-98a9-66d650d23de4"],Cell[
+CellGroupData[
+{Cell[
+"\<\>","Title",ExpressionUUID -> "c657e0df-c7a9-4ed0-a687-4665f87fb6e0"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"ciphertext"," ","="," ",RowBox[{"message"," ","+"," ","e"}]}]],
+"Input",CellLabel -> "In[30]:= ",ExpressionUUID -> "cb10e552-63ad-46e1-b930-5243874bb5e4"],Cell[
+BoxData[
+RowBox[{"2","-","t1","-","t2","-","t4","+",RowBox[{"t3"," ",RowBox[{"(",RowBox[{RowBox[
+{"t1"," ","t2"}],"+",RowBox[{"t1"," ","t4"}],"+",RowBox[{"t2"," ","t4"}]}],")"}]}]}],
+StandardForm],"Output",CellLabel -> "Out[30]= ",ExpressionUUID -> "88740952-e8cf-49d3-a35c-9458c2bf26c9"]},
+Open],ExpressionUUID -> "68ca06fe-77e7-485f-bd47-f23d7f16597a"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"\n",StyleBox[RowBox[{StyleBox[StyleBox["(*",FontColor -> RGBColor[
+0.3215686274509804`,0.14901960784313725`,0.14901960784313725`]],FontSize -> 16],StyleBox[
+StyleBox[" ",FontColor -> RGBColor[0.3215686274509804`,0.14901960784313725`,0.14901960784313725`]],
+FontSize -> 16]}]],StyleBox[StyleBox[StyleBox["Decryption",FontColor -> RGBColor[
+0.3215686274509804`,0.14901960784313725`,0.14901960784313725`]],FontWeight -> Bold],
+FontSize -> 16],StyleBox[StyleBox[StyleBox[" ",FontColor -> RGBColor[0.3215686274509804`,
+0.14901960784313725`,0.14901960784313725`]],FontWeight -> Bold],FontSize -> 16],"\n",StyleBox[
+RowBox[{StyleBox[StyleBox[" ",FontColor -> RGBColor[0.3215686274509804`,0.14901960784313725`,
+0.14901960784313725`]],FontSize -> 16],StyleBox[StyleBox[" ",FontColor -> RGBColor[
+0.3215686274509804`,0.14901960784313725`,0.14901960784313725`]],FontSize -> 16],StyleBox[
+StyleBox[" ",FontColor -> RGBColor[0.3215686274509804`,0.14901960784313725`,0.14901960784313725`]],
+FontSize -> 16]}]],StyleBox[StyleBox["Evaluate",FontColor -> RGBColor[0.3215686274509804`,
+0.14901960784313725`,0.14901960784313725`]],FontSize -> 16],StyleBox[StyleBox[" ",
+FontColor -> RGBColor[0.3215686274509804`,0.14901960784313725`,0.14901960784313725`]],
+FontSize -> 16],StyleBox[StyleBox["the",FontColor -> RGBColor[0.3215686274509804`,
+0.14901960784313725`,0.14901960784313725`]],FontSize -> 16],StyleBox[StyleBox[" ",
+FontColor -> RGBColor[0.3215686274509804`,0.14901960784313725`,0.14901960784313725`]],
+FontSize -> 16],StyleBox[StyleBox["ciphertext",FontColor -> RGBColor[0.3215686274509804`,
+0.14901960784313725`,0.14901960784313725`]],FontSize -> 16],StyleBox[StyleBox[" ",
+FontColor -> RGBColor[0.3215686274509804`,0.14901960784313725`,0.14901960784313725`]],
+FontSize -> 16],StyleBox[StyleBox["at",FontColor -> RGBColor[0.3215686274509804`,
+0.14901960784313725`,0.14901960784313725`]],FontSize -> 16],StyleBox[StyleBox[" ",
+FontColor -> RGBColor[0.3215686274509804`,0.14901960784313725`,0.14901960784313725`]],
+FontSize -> 16],StyleBox[StyleBox["p",FontColor -> RGBColor[0.3215686274509804`,0.14901960784313725`,
+0.14901960784313725`]],FontSize -> 16],StyleBox[RowBox[{StyleBox[StyleBox[",",FontColor -> RGBColor[
+0.3215686274509804`,0.14901960784313725`,0.14901960784313725`]],FontSize -> 16],StyleBox[
+StyleBox[" ",FontColor -> RGBColor[0.3215686274509804`,0.14901960784313725`,0.14901960784313725`]],
+FontSize -> 16]}]],StyleBox[StyleBox["the",FontColor -> RGBColor[0.3215686274509804`,
+0.14901960784313725`,0.14901960784313725`]],FontSize -> 16],StyleBox[StyleBox[" ",
+FontColor -> RGBColor[0.3215686274509804`,0.14901960784313725`,0.14901960784313725`]],
+FontSize -> 16],StyleBox[StyleBox["point",FontColor -> RGBColor[0.3215686274509804`,
+0.14901960784313725`,0.14901960784313725`]],FontSize -> 16],StyleBox[StyleBox[" ",
+FontColor -> RGBColor[0.3215686274509804`,0.14901960784313725`,0.14901960784313725`]],
+FontSize -> 16],StyleBox[StyleBox["corresponding",FontColor -> RGBColor[0.3215686274509804`,
+0.14901960784313725`,0.14901960784313725`]],FontSize -> 16],StyleBox[StyleBox[" ",
+FontColor -> RGBColor[0.3215686274509804`,0.14901960784313725`,0.14901960784313725`]],
+FontSize -> 16],StyleBox[StyleBox["to",FontColor -> RGBColor[0.3215686274509804`,
+0.14901960784313725`,0.14901960784313725`]],FontSize -> 16],StyleBox[StyleBox[" ",
+FontColor -> RGBColor[0.3215686274509804`,0.14901960784313725`,0.14901960784313725`]],
+FontSize -> 16],StyleBox[StyleBox["T0",FontColor -> RGBColor[0.3215686274509804`,
+0.14901960784313725`,0.14901960784313725`]],FontSize -> 16],StyleBox[StyleBox["*)",
+FontColor -> RGBColor[0.3215686274509804`,0.14901960784313725`,0.14901960784313725`]],
+FontSize -> 16]}],"Subsection",ExpressionUUID -> "a6e924f5-b9af-4d9b-8bcf-cf90f40fd18c"],Cell[
+CellGroupData[
+{Cell[
+BoxData["p"],"Input",CellLabel -> "In[31]:= ",ExpressionUUID -> "db26a120-f89c-47b2-b4a3-7b5bc0237097"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"1",",","0",",","1",",","1",",","0"}],"}"}],StandardForm],"Output",
+CellLabel -> "Out[31]= ",ExpressionUUID -> "32198542-388e-4838-b437-65d0dab29195"]},
+Open],ExpressionUUID -> "d9c1ff88-faa6-4590-99da-de37f82c9515"],Cell[
+BoxData[RowBox[
+{RowBox[{"messageRecovery"," ","="," ",RowBox[{"Evaluate","[",RowBox[{"ciphertext","/.",RowBox[
+{"{",RowBox[{RowBox[{"t1"," ","\[Rule]"," ","1"}],",",RowBox[{"t2","\[Rule]"," ","0"}],",",RowBox[
+{"t3"," ","\[Rule]"," ","1"}],","," ",RowBox[{"t4","\[Rule]","1"}],","," ",RowBox[
+{"t5"," ","\[Rule]","0"}]}],"}"}]}],"]"}]}],";"}]],"Input",CellLabel -> "In[32]:= ",
+ExpressionUUID -> "d3ae6831-32a2-4ca4-9fec-49c414c0866a"],Cell[
+CellGroupData[{Cell[
+BoxData[
+"messageRecovery"],"Input",CellLabel -> "In[33]:= ",ExpressionUUID -> "ed0160a9-4b4f-4990-89c2-7fe69d329c2c"],Cell[
+BoxData[
+"1",StandardForm],"Output",CellLabel -> "Out[33]= ",ExpressionUUID -> "90bc398d-dddc-4add-9c3a-5dbef8030f4a"]},
+Open],ExpressionUUID -> "b7945114-8998-41fa-be87-1f28724d9263"],Cell[
+BoxData[""],
+"Input",ExpressionUUID -> "f6579aa9-4c06-4251-ae77-6915fd698194"],Cell[
+BoxData[""],
+"Input",ExpressionUUID -> "305f24f6-ce38-4e81-8b76-a6e964aaf800"],Cell[
+BoxData[""],
+"Input",ExpressionUUID -> "569c5ebd-2a68-45e4-8133-fe596494eb66"],Cell[
+BoxData[" "],
+"Input",ExpressionUUID -> "79d7da00-2e81-4f66-977d-f5a724f52546"]},Open],ExpressionUUID -> "238cf25a-c837-4cfa-914c-5cf5de73360b"]},
+Open],ExpressionUUID -> "d3bd2a09-2dfb-46c3-934d-d7180f5ac748"]},StyleDefinitions -> "Default.nb",
+FrontEndVersion -> "13.1 for Wolfram Cloud 1.63 (June 21, 2022)"]
